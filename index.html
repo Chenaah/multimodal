@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>The Design, Control, and Sim-to-Real Transfer of a Multi-ModalLocomotion Legged Robot Using Reinforcement Learning</title>
+        <title>Multi-Modal Legged Robot Using Hybrid Residual Reinforcement Learning</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=1000">
         <link rel="stylesheet" href="https://use.typekit.net/quv7bsd.css"> <!-- fonts -->
-        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="stylesheet" href="flickity.css">
         <link rel="stylesheet" href="style.css" />
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -15,7 +15,7 @@
           ga('create', 'UA-89797207-1', 'auto');
           ga('send', 'pageview');
         </script>
-        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script src="flickity.pkgd.js"></script>
     </head>
     <body id="body">
         <div id="main"> 
@@ -25,7 +25,7 @@
             <div id="profile">
                 <!-- <img src="images/profile.jpg"> -->
                 <div id="profile-desc">
-                    <div id="profile-name">The Design, Control, and Sim-to-Real Transfer of a Multi-ModalLocomotion Legged Robot Using Reinforcement Learning
+                    <div id="profile-name">Multi-Modal Legged Robot Using Hybrid Residual Reinforcement Learning
                         <p><br>Under review as a conference paper at ICRA 2022</p>
                     </div>
                     <p>
@@ -40,6 +40,7 @@
                 <iframe width="820" height="461.25" src="https://www.youtube.com/embed/RXqSedWSu2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </p>
             </div>
+            <br>
             <!-- <div class="divider"></div> -->
 
             <div class="divider"></div>  
@@ -48,22 +49,22 @@
                 <p>Overall, standard TD3 can outperform SAC and all the parametric controllers with parameter optimisers, while our proposed hybrid methods with TD3 can even surpass the standard TD3. </p>
                 
                 
-                    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "autoPlay": 3000}'>
+                    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "autoPlay": 3000, "groupCells": true, "groupCells": 1, "prevNextButtons": true, "pageDots": false, "resize": false}'>
                     <div class="carousel-cell">
                         <img class="carousel-cell-image"
-                        src="images/Sine_big.png" alt="grapes" />
+                        src="images/Sine_big.png" alt="grapes" width="600" height="600"/>
                     </div>
                     <div class="carousel-cell">
                         <img class="carousel-cell-image"
-                        src="images/Rose_big.png" alt="grapes" />
+                        src="images/Rose_big.png" alt="grapes" width="600" height="600" />
                     </div>
                     <div class="carousel-cell">
                         <img class="carousel-cell-image"
-                        src="images/Triangle_big.png" alt="grapes" />
+                        src="images/Triangle_big.png" alt="grapes" width="600" height="600" />
                     </div>
                     <div class="carousel-cell">
                         <img class="carousel-cell-image"
-                        src="images/Line_big.png" alt="grapes" />
+                        src="images/Line_big.png" alt="grapes" width="600" height="600" />
                     </div>
                 </div>
                 
@@ -72,6 +73,9 @@
                 <a><img src="images/Rose_big.png"></a>
                 <a><img src="images/Triangle_big.png"></a> -->
             </div>
+
+            <br>
+            <br>
             <div class="divider"></div>
 
             <!-- <div class="section paper">
@@ -106,11 +110,11 @@
             <div class="section bibtex half">
                 <h1>Bibtex</h1>
                 <div class="code">@article{zeng2020transporter,<br>
-&nbsp;&nbsp;&nbsp;&nbsp;title={The Design, Control, and Sim-to-Real Transfer of a Multi-ModalLocomotion Legged Robot Using Reinforcement Learning},<br>
-&nbsp;&nbsp;&nbsp;&nbsp;author={Chen Yu and Andre Rosendo},<br>
-&nbsp;&nbsp;&nbsp;&nbsp;journal={XXX},<br>
-&nbsp;&nbsp;&nbsp;&nbsp;year={XXX}<br>
-}</div>
+                &nbsp;&nbsp;&nbsp;&nbsp;title={The Design, Control, and Sim-to-Real Transfer of a Multi-ModalLocomotion Legged Robot Using Reinforcement Learning},<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;author={Chen Yu and Andre Rosendo},<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;journal={XXX},<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;year={XXX}<br>
+                }</div>
             </div>    
             <div class="divider"></div>
             <!-- <div class="section team">
