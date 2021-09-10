@@ -1,1 +1,166 @@
-hello world
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>The Design, Control, and Sim-to-Real Transfer of a Multi-ModalLocomotion Legged Robot Using Reinforcement Learning</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=1000">
+        <link rel="stylesheet" href="https://use.typekit.net/quv7bsd.css"> <!-- fonts -->
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="stylesheet" href="style.css" />
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-89797207-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    </head>
+    <body id="body">
+        <div id="main"> 
+            <header id="header">
+            </header>
+            <!-- style="padding-bottom:1em" -->
+            <div id="profile">
+                <!-- <img src="images/profile.jpg"> -->
+                <div id="profile-desc">
+                    <div id="profile-name">The Design, Control, and Sim-to-Real Transfer of a Multi-ModalLocomotion Legged Robot Using Reinforcement Learning
+                        <p><br>Under review as a conference paper at ICRA 2022</p>
+                    </div>
+                    <p>
+                        <b>Abstract</b>. While quadruped robots usually have good stability and load capacity, bipedal robots can have a higher level of flexibility and hence higher adaptability to different environments. A multi-modal legged robot can take the best of both worlds. In this paper, we show a complete pipeline of the design, control, and sim-to-real transfer of a multi-modal legged robot. We 1) design an additional supporting structure for a quadruped robot, 2) propose a class of learning-based algorithms combining reinforcement learning and black-box parameter optimisers, and 3) propose a sim-to-real transfer technique and evaluate the effectiveness. Experimental results show that our multi-modal robot could successfully switch between two modes and walk in both modes. 
+                    </p>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+            <div class="section paper">
+                <!-- <h1>Highlights</h1> -->
+                <p align="center">
+                <iframe width="820" height="461.25" src="https://www.youtube.com/embed/RXqSedWSu2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </p>
+            </div>
+            <!-- <div class="divider"></div> -->
+
+            <div class="divider"></div>  
+            <div class="section paper">
+                <h1>Simulation Results</h1>
+                <p>Overall, standard TD3 can outperform SAC and all the parametric controllers with parameter optimisers, while our proposed hybrid methods with TD3 can even surpass the standard TD3. </p>
+                
+                
+                    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "autoPlay": 3000}'>
+                    <div class="carousel-cell">
+                        <img class="carousel-cell-image"
+                        src="images/Sine_big.png" alt="grapes" />
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="carousel-cell-image"
+                        src="images/Rose_big.png" alt="grapes" />
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="carousel-cell-image"
+                        src="images/Triangle_big.png" alt="grapes" />
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="carousel-cell-image"
+                        src="images/Line_big.png" alt="grapes" />
+                    </div>
+                </div>
+                
+                <!-- <a><img src="images/Line_big.png"></a>
+                <a><img src="images/Sine_big.png"></a>
+                <a><img src="images/Rose_big.png"></a>
+                <a><img src="images/Triangle_big.png"></a> -->
+            </div>
+            <div class="divider"></div>
+
+            <!-- <div class="section paper">
+                <h1>Experimental Results</h1>
+                <p>Latest version (Oct 28, 2020): <a href="https://arxiv.org/abs/2010.14406">arXiv:2010.14406 [cs.RO]</a>.<br>Published at the Conference on Robot Learning (CoRL) 2020<br>
+                    <font color="4e79a7">&#9733; Plenary Talk, Best Paper Presentation Award Finalist, CoRL &#9733;</font></p><br>
+                <a href="https://arxiv.org/pdf/2010.14406.pdf"><img src="images/thumbnail-half.jpg"></a>
+            </div>
+            <div class="divider"></div> -->
+
+            <div class="section paper">
+                <h1>Paper</h1>
+                <p>Under review as a conference paper at ICRA 2022<br></p>
+                    <!-- <font color="4e79a7">&#9733; Plenary Talk, Best Paper Presentation Award Finalist, CoRL &#9733;</font></p><br> -->
+                <a href="https://arxiv.org/pdf/2010.14406.pdf"><img src="images/thumbnail-half.jpg"></a>
+            </div>
+            <div class="divider"></div>
+
+
+            <div class="section paper half">
+                <h1>Code</h1>
+                <p>
+                    Code is available on <a href="https://github.com/google-research/ravens">Github</a>. Includes:<br>
+                    &nbsp;&nbsp;&bull;&nbsp;&nbsp;3D models (STL files for 3D printing and OBJ files for simulation).<br>
+                    &nbsp;&nbsp;&bull;&nbsp;&nbsp;Simulation environments (with PyBullet).<br>
+                    &nbsp;&nbsp;&bull;&nbsp;&nbsp;Training/testing code (with TensorFlow/Python).<br>
+                    &nbsp;&nbsp;&bull;&nbsp;&nbsp;Program implemented on the real robot.<br><br>
+                    <br>
+                </p>
+
+            </div>
+            <div class="section bibtex half">
+                <h1>Bibtex</h1>
+                <div class="code">@article{zeng2020transporter,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;title={The Design, Control, and Sim-to-Real Transfer of a Multi-ModalLocomotion Legged Robot Using Reinforcement Learning},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;author={Chen Yu and Andre Rosendo},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;journal={XXX},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;year={XXX}<br>
+}</div>
+            </div>    
+            <div class="divider"></div>
+            <!-- <div class="section team">
+                <h1>Team</h1>
+                <div class="people-profile">
+                    <a href="https://andyzeng.github.io/"><img src="images/people/andy.jpg"><p>Andy Zeng</p></a>
+                </div>
+                <div class="people-profile">
+                    <a href="http://www.peteflorence.com/"><img src="images/people/pete.jpg"><p>Pete Florence</p></a>
+                </div>
+                <div style="clear: both;"></div>
+            </div> -->
+            <!-- <div class="section teamlogo">
+                <img src="images/logo.png">
+                <p>Robotics at Google</p>
+            </div>
+            <div style="clear: both;"></div> -->
+            <div class="divider"></div>
+            
+            <!-- <div class="section highlights">
+                <h1>Highlights</h1>
+                <a href="https://ai.googleblog.com/2021/02/rearranging-visual-world.html"><img style="height: 80px; margin-left: 30px; margin-bottom: 10px" src="images/aiblog.png"></a>
+                <a href="https://venturebeat.com/2020/10/28/googles-transporter-networks-learn-to-stack-blocks-and-assemble-mouthwash-kits-from-as-few-examples/"><img style="height: 26px; margin-top: 31px; margin-left: 30px; margin-bottom: 10px" src="images/vb.png"></a>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="divider"></div>
+            
+            <div class="section video">
+                <h1>Plenary Talk</h1>
+                <p>Watch it on YouTube (<a href="https://youtu.be/8afHfReCfPo?t=12214">link</a>)<br><a href="https://youtu.be/8afHfReCfPo?t=12214"><img src="images/talk-thumbnail.png" width="640px" style="border: 2px solid #191e3f; margin-top: 10px"></a></p>
+            </div>
+            <div class="section video">
+                <h1>Supplemental Video</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/496UVuAdOP4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="section video">
+                <h1>Method</h1>
+                <video style="margin-left: 30px; width: 480px; margin-bottom: 30px" playsinline="" muted="" autoplay="" loop="">
+                    <source src="images/animation.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="divider"></div> -->
+            
+            <div class="section acknowledgements">
+                <h1>Acknowledgements</h1>
+                <p>Special thanks to Jinyue Cao, Heng Zhang, Zhongwei Luo for mathematical advice; Xiaozhu Lin for hardware support. </p><br><br>
+                    <!-- helpful feedback on writing; Sean Snyder, Jonathan Vela, Larry Bisares, Michael Villanueva, Brandon Hurd for operations and hardware support; Robert Baruch for software infrastructure, Jared Braun for UI contributions; Erwin Coumans for PyBullet advice; Laura Graesser for video narration. -->
+            </div>
+            <br><br><br><br><br><br><br><br><br><br>
+            <div class="divider"></div>
+        </div>
+    </body>
+</html>
