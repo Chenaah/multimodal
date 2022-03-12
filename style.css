@@ -436,14 +436,26 @@ ul {
 }
 
 
-.carousel-cell {
+.carousel-cell-walk {
+    width: 28%;
+    /* height: 590px; */
 
-    height: 590px;
-    
+  }
+
+.carousel-cell-walk img {
+    display: block;
+    height: 250px;
+    width: 250px;
+
+}
+
+.carousel-cell {
+    height: 620px;
+
   }
   
   
-  .carousel-cell img {
+.carousel-cell img {
     display: block;
 
-  }
+}

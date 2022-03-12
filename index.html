@@ -45,26 +45,77 @@
 
             <div class="divider"></div>  
             <div class="section paper">
-                <h1>Results</h1>
-                <p>Overall, standard TD3 can outperform SAC and all the parametric controllers with parameter optimisers, while our proposed hybrid methods with TD3 can even surpass the standard TD3. </p>
+                <h1>Multimodal Transition Scheme</h1>
+                <p>The multi-modal transition strategy described in Sec. II in the paper and a reverse action sequence can both perform well on the real robot, as shown in the figures below (Fig. 4 in the paper) and the supplementary video. In the quadruped mode, the additional supporting structure does not affect the quadruped locomotion controller; in the bipedal mode, the supporting structure can successfully provide a supporting polygon for the robot to keep balance. In this way, the robot can arbitrarily switch between these two locomotion modes.  </p>
                 
+                <br>
+                    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "autoPlay": 3000, "groupCells": true, "groupCells": 1, "prevNextButtons": true, "pageDots": false, "resize": true}'>
+                    <div class="carousel-cell-walk" width="28%">
+                        <img class="carousel-cell-image"
+                        src="images/standing/standing252.png" alt="grapes"/>
+                    </div>
+                    <div class="carousel-cell-walk">
+                        <img class="carousel-cell-image"
+                        src="images/standing/standing321.png" alt="grapes"/>
+                    </div>
+                    <div class="carousel-cell-walk">
+                        <img class="carousel-cell-image"
+                        src="images/standing/standing330.png" alt="grapes"/>
+                    </div>
+                    <div class="carousel-cell-walk">
+                        <img class="carousel-cell-image"
+                        src="images/standing/standing338.png" alt="grapes"/>
+                    </div>
+                </div>
+
+            <div class="divider"></div>  
+            <div class="section paper">
+                <h1>Bipedal Locomotion Control</h1>
+                <p>Overall, for all cases except methods involving TD3 with the Line gait, all six ARRL combinations have a better performance than their corresponding underlying pure RL. For motion primitives of Sine, Rose, and Triangle, ARRL combinations involving TD3 generally have a better performance than combinations involving SAC and pure block-box optimisers.  </p>
+                <br>
+                <h1>ARRL with SAC</h1>
+                <br>
                 
                     <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "autoPlay": 3000, "groupCells": true, "groupCells": 1, "prevNextButtons": true, "pageDots": false, "resize": false}'>
                     <div class="carousel-cell">
                         <img class="carousel-cell-image"
-                        src="images/Sine_big.png" alt="grapes" width="600" height="600"/>
+                        src="images/ARRLs/ARRL_S0.png" alt="grapes" width="600" height="600"/>
                     </div>
                     <div class="carousel-cell">
                         <img class="carousel-cell-image"
-                        src="images/Rose_big.png" alt="grapes" width="600" height="600" />
+                        src="images/ARRLs/ARRL_S1.png" alt="grapes" width="600" height="600" />
                     </div>
                     <div class="carousel-cell">
                         <img class="carousel-cell-image"
-                        src="images/Triangle_big.png" alt="grapes" width="600" height="600" />
+                        src="images/ARRLs/ARRL_S2.png" alt="grapes" width="600" height="600" />
                     </div>
                     <div class="carousel-cell">
                         <img class="carousel-cell-image"
-                        src="images/Line_big.png" alt="grapes" width="600" height="600" />
+                        src="images/ARRLs/ARRL_S3.png" alt="grapes" width="600" height="600" />
+                    </div>
+                </div>
+
+                <div class="section paper">
+                <h1>ARRL with TD3</h1>
+                <br>
+                
+                    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "autoPlay": 3000, "groupCells": true, "groupCells": 1, "prevNextButtons": true, "pageDots": false, "resize": false}'>
+                    <div class="carousel-cell">
+                        <img class="carousel-cell-image"
+                        src="images/ARRLs/ARRL_T0.png" alt="grapes" width="600" height="600"/>
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="carousel-cell-image"
+                        src="images/ARRLs/ARRL_T1.png" alt="grapes" width="600" height="600" />
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="carousel-cell-image"
+                        src="images/ARRLs/ARRL_T2.png" alt="grapes" width="600" height="600" />
+                    </div>
+                    <div class="carousel-cell">
+                        <img class="carousel-cell-image"
+                        src="images/ARRLs/ARRL_T3.png" alt="grapes" width="600" height="600" />
+                    </div>
                     </div>
                 </div>
                 
